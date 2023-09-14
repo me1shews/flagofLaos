@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 1000px;
+    background-color: antiquewhite;
+}
+
+
+.container-1{
+    height: 300px;
+    background-color: red;
+}
+
+.container-1 h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 9rem;
+}
+
+
+.container-2{
+    height: 300px;
+    background-color: rgb(51, 51, 183);
+}
+
+
+.container-3{
+    height: 300px;
+    background-color: red;
+}
+
+.relative{
+    position: relative; 
+}
+
+
+.absolute{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: absolute;
+    left: 900px;
+    bottom: 340px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.absolute{
+    padding: 30px;
+}
